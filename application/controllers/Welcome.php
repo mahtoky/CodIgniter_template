@@ -20,6 +20,17 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		// show_error('Hello', 404);
+		$data['contents'] = 'templates/accueil';
+		$this->load->view('templates/template', $data);
+	}
+
+	public function login(){
+		$this->load->view('templates/login');
+	}
+
+	public function register(){
+		echo $this->output->get_header('status code');
+		$this->load->view('templates/registers');
 	}
 }
