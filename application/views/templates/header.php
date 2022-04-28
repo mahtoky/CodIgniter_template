@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
-  <title>Ecommerce Dashboard &mdash; Stisla</title>
+  <title> Music</title>
 
   <!-- General CSS Files -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -12,6 +12,7 @@
   <!-- Template CSS -->
   <link rel="stylesheet" href="<?= site_url('assets/css/style.css') ?>">
   <link rel="stylesheet" href="<?= site_url('assets/css/components.css') ?>">
+  <link rel="shortcut icon" href="<?=site_url('assets/img/music-notes.png') ?>" />
 </head>
 
 <body>
@@ -63,10 +64,10 @@
           </div>
           <ul class="sidebar-menu">
               <li class="menu-header">Songs</li>
-              <li><a class="nav-link" href="credits.html"><i class="fas fa-pencil-ruler"></i> <span>All songs</span></a></li>
+              <li><a class="nav-link" href="credits.html"><i class="fas fa-music"></i> <span>All songs</span></a></li>
               <li class="menu-header">Utilities</li>
-              <li> <a href="#" class="nav-link"><i class="fas fa-pencil-ruler"></i><span>Cart</span></a> </li>
-              <li> <a href="#" class="nav-link"><i class="fas fa-pencil-ruler"></i><span>Bills</span></a> </li>
+              <li> <a href="#" class="nav-link"><i class="fas fa-credit-card"></i><span>Cart</span></a> </li>
+              <li> <a href="#" class="nav-link"><i class="fas fa-file-invoice"></i><span>Bills</span></a> </li>
             </ul>
         </aside>
       </div>
